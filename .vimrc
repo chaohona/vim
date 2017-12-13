@@ -18,6 +18,7 @@ au FileType scale setlocal dict+=~/.vim/dict/scale.dict
 au FileType javascript setlocal dict+=~/.vim/dict/javascript.dict
 au FileType html setlocal dict+=~/.vim/dict/javascript.dict
 au FileType html setlocal dict+=~/.vim/dict/css.dict
+au BufNewFile,BufRead *.cpp set syntax=cpp11
 
 "
 "syntastic相关
